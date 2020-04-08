@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="choice">
+        Escolha entre:<br />
+        <button class="choiceButton" onclick="choice('x')">X</button>
+        <button class="choiceButton" onclick="choice('o')">O</button>
+      </div>
+      <div id="gameBox">
+        <div class="buttonGroup">
+          <button id="1" onclick="mark('1')">.</button>
+          <button id="2" onclick="mark('2')">.</button>
+          <button id="3" onclick="mark('3')">.</button>
+        </div>
+        <div class="buttonGroup">
+          <button id="4" onclick="mark('4')">.</button>
+          <button id="5" onclick="mark('5')">.</button>
+          <button id="6" onclick="mark('6')">.</button>
+        </div>
+        <div class="buttonGroup">
+          <button id="7" onclick="mark('7')">.</button>
+          <button id="8" onclick="mark('8')">.</button>
+          <button id="9" onclick="mark('9')">.</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
